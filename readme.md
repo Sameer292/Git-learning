@@ -24,3 +24,5 @@
 - **`git reset --mixed <commit-hash>`**  Resets branch to the commit & keeps changes unstaged
 - **`git reset --hard <commit-hash>`**  Resets branch to the commit and loses all changes after the commit
 - **`git revert <commit-hash>`**  Undo-es a commit safely
+- **`git restore <file-name>`** Unstage a file and discard current changes to the file in current commit
+- **`git restore .`** Unstage all changes in current commit
