@@ -6,21 +6,21 @@
 - **`git switch <branch-name>`** Switch branches
 - **`git switch -c <branch-name>`** Create and switch branch
 - **`git add <file>`** Stage an changed/modified file
-- **` git add .`**  Staged all modified files
+- **`git add .`**  Staged all modified files
 - **`git commit -m 'message'`**  Commit changes with a message
-- **`  git commit -am 'message'`**  Stage and commit changes
-- **`git remote add <alias> <url> `** Add remote repo
+- **`git commit -am 'message'`**  Stage and commit changes
+- **`git remote add <alias> <url>`** Add remote repo
 - **`git clone <url> `** Clone a remote repo
 - **`git push <alias> <branch-name>`**  Push to the remote repo
 - **`git branch -d <branch-name> `** Delete a local branch
 - **`git push <alias> --delete <branch-name>`**  Delete a remote repo
 - **`git merge <branch-name> `** Merge a branch to the current one
 - **`git remote -v`**  List current remote
-- **`  ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`**  Generate ssh key
-- **`  git remote set-url origin <SSH-url>`**  Update remote branch
-- **` git checkout <commit-hash>`** Take a look at previous commits
-- **`  git checkout <current_branch-name>`**  Go to the latest commit
-- **`git reset --soft <commit-hash> `** Softly resets branch to a specific commit & Keeps changes staged
+- **`ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`**  Generate ssh key
+- **`git remote set-url origin <SSH-url>`**  Update remote branch
+- **`git checkout <commit-hash>`** Take a look at previous commits
+- **`git checkout <current_branch-name>`**  Go to the latest commit
+- **`git reset --soft <commit-hash>`** Softly resets branch to a specific commit & Keeps changes staged
 - **`git reset --mixed <commit-hash>`**  Resets branch to the commit & keeps changes unstaged
-- **`git reset --hard <commit-hash>   `**  Resets branch to the commit and loses all changes after the commit
+- **`git reset --hard <commit-hash>`**  Resets branch to the commit and loses all changes after the commit
 - **`git revert <commit-hash>`**  Undo-es a commit safely
