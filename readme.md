@@ -16,7 +16,7 @@
 - **`git push <alias> --delete <branch-name>`**  Delete a remote repo
 - **`git merge <branch-name> `** Merge a branch to the current one
 - **`git remote -v`**  List current remote
-- **`ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`**  Generate ssh key
+- **`ssh-keygen -t ed25519 -C "your_email@example.com"`**  Generate ssh key
 - **`git remote set-url origin <SSH-url>`**  Update remote branch
 - **`git checkout <commit-hash>`** Take a look at previous commits
 - **`git checkout <current_branch-name>`**  Go to the latest commit
