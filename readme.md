@@ -15,6 +15,7 @@
 - **`git cherry-pick <commit-hash>`**  Bring specific commit(changes) from other branch to current one.
 - **`git cherry-pick --abort`**  Abort current cherry-picking process.
 - **`git rebase <branch-name>`**  set the current branch's base to the tip of the <branch-name> branch.
+- **`git rebase -i HEAD~<count>`**  This allows us to merge the commits into one. <count> refers to the below the current head position. Then change pick to squash of the commits you want to combine to one, then provide a commit message 
 - **`git rebase <branch-name>`**  set the current branch's base to the tip of the <branch-name> branch.
 - **`git remote add <alias> <url>`** Add remote repo
 - **`git fetch`** Fetches any changes in the remote branch and keeps the changes uncommited to the local branch
