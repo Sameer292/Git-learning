@@ -9,9 +9,20 @@
 - **`git add .`**  Staged all modified files
 - **`git commit -m 'message'`**  Commit changes with a message
 - **`git commit -am 'message'`**  Stage and commit changes
+- **`git stash`**  Save current changes in an temporary stack (stash). Can be reapplied/popped later.
+- **`git stash apply`** Bring back the uncommited changes but don't remove from the stash.
+- **`git stash`**  Bring back the uncommitted changes and drop the stash from the stack.
+- **`git cherry-pick <commit-hash>`**  Bring specific commit(changes) from other branch to current one.
+- **`git cherry-pick --abort`**  Abort current cherry-picking process.
+- **`git rebase <branch-name>`**  set the current branch's base to the tip of the <branch-name> branch.
+- **`git rebase <branch-name>`**  set the current branch's base to the tip of the <branch-name> branch.
 - **`git remote add <alias> <url>`** Add remote repo
+- **`git fetch`** Fetches any changes in the remote branch and keeps the changes uncommited to the local branch
+- **`git merge`** Updates the Head pointer to reference the latest commit
+- **`git pull`** fetches and merges the changes to the local branch 
 - **`git clone <url> `** Clone a remote repo
 - **`git push <alias> <branch-name>`**  Push to the remote repo
+- **`git push --all <alias>`**  Push all branches to the remote repo
 - **`git branch -d <branch-name> `** Delete a local branch
 - **`git push <alias> --delete <branch-name>`**  Delete a remote repo
 - **`git merge <branch-name> `** Merge a branch to the current one
