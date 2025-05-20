@@ -30,7 +30,7 @@
 ### description
 > This is a short message about the commit
 
-> This should be writte in imperative. eg: ~~adds feature~~ || ~~added feature~~ 
+> This should be written in imperative. eg: ~~adds feature~~ || ~~added feature~~ 
 ✅ **add** feature ✅
 
 
